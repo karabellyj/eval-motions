@@ -14,7 +14,7 @@ function App() {
       <h1>Physically Simulated Characters</h1>
       <div className="card">
         <div className='card-item'>
-        <p style={{'text-align': 'justify', 'width': '600px'}}>
+        <p style={{'textAlign': 'justify', 'width': '600px'}}>
           This is a evualuation app for the Physically Simulated Characters project.
           Please look at the following videos and choose the one that looks <b>more natural</b>.
           Goal of the is to follow target directions given by blue and red markers. <b>Blue marker</b> dictates direction in which the charater <b>should look</b>. <b>Red marker</b> dictates direction which the character <b>should move</b>.

@@ -1719,6 +1719,10 @@
   resolved "https://registry.npmjs.org/@types/scheduler/-/scheduler-0.16.3.tgz"
   integrity sha512-5cJ8CB4yAx7BH1oMvdU0Jh9lrEXyPkar6F9G/ERswkCuvP4KQZfZkSjcMbAICCpQTN4OuZn8tz0HiKv9TGZgrQ==
 
+"@types/thin-backend@https://thin.dev/types/bd0c09fd-36b6-4516-8a8e-411026618219/JaHvWbDmxYbMVWmwcBqkvvvIJMGsCQLO":
+  version "1.0.0"
+  resolved "https://thin.dev/types/bd0c09fd-36b6-4516-8a8e-411026618219/JaHvWbDmxYbMVWmwcBqkvvvIJMGsCQLO#a5561aa5e1759b96967aec9c42b2785869f523d9"
+
 "@types/unist@*", "@types/unist@^2.0.0":
   version "2.0.6"
   resolved "https://registry.npmjs.org/@types/unist/-/unist-2.0.6.tgz"

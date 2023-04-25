@@ -4,12 +4,12 @@ import './Video.css'
 
 function Video({ title, url }: { title: string; url: string}) {
     const [counter, setCounter] = useState(0);
-    const inputRef = useRef(null);
+    const inputRef = useRef<HTMLVideoElement>(null);
 
     return (
         <video ref={inputRef} id={title} className='video' width={600} height={600} autoPlay onEnded={() => {
             if (counter < 1) {
-                inputRef.current.play();
+                inputRef.current?.play();
                 setCounter(x => x + 1);
             }
         }}>

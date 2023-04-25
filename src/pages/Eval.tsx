@@ -70,7 +70,7 @@ function Eval() {
                 </div>
             </div>
             <div>
-                <button onClick={() => navigate('/')}>I'm done, let me out!!!</button>  
+                <button onClick={() => navigate('/')}>Stop this madness, let me out!!!</button>  
             </div>
         </div>
     )
