@@ -42,7 +42,7 @@ function Eval() {
             </div>
             <div className="card">
                 <div className='card-item'>
-                    <Video key={counter} title='first' url={`/src/assets/motions/0-${data[counter]}.mp4`}/>
+                    <Video key={counter} title='first' url={`/motions/0-${data[counter]}.mp4`}/>
                     
                     <button onClick={() => {
                         addEval({
@@ -56,7 +56,7 @@ function Eval() {
                 </div>
                 
                 <div className='card-item'>
-                    <Video key={counter} title='second' url={`/src/assets/motions/1-${data[counter]}.mp4`}/>
+                    <Video key={counter} title='second' url={`/motions/1-${data[counter]}.mp4`}/>
 
                     <button onClick={() => {
                         addEval({
